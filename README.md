@@ -54,30 +54,30 @@ npm run dev
 ```
 
 ## 📄 Roadmap
- ✅User Authentication & Profiles
+  ✅User Authentication & Profiles
 
- ✅Prompt Library (CRUD)
+  ✅Prompt Library (CRUD)
 
- ✅Prompt Templates (Variables)
+  ✅Prompt Templates (Variables)
 
- ✅Prompt Execution via API
+  ✅Prompt Execution via API
 
- ✅Shareable Prompt Links
+  ✅Shareable Prompt Links
 
- ✅API Trigger for Automations
+  ✅API Trigger for Automations
 
- ✅Prompt Marketplace (Phase 2)
+  ✅Prompt Marketplace (Phase 2)
 
 ## 🤝 Contributing
-✅Fork the project.
+ ✅Fork the project.
 
-✅Create your feature branch (git checkout -b feature/awesome-feature)
+ ✅Create your feature branch (git checkout -b feature/awesome-feature)
 
-✅Commit your changes (git commit -m 'Add some feature')
+ ✅Commit your changes (git commit -m 'Add some feature')
 
-✅Push to the branch (git push origin feature/awesome-feature)
+ ✅Push to the branch (git push origin feature/awesome-feature)
 
-✅Open a Pull Request.
+ ✅Open a Pull Request.
 
 ## 📜 License
   This project is licensed under the MIT License.
