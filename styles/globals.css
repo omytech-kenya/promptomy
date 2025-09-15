@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+:root {
+  /* PROMPTOMY Design System Colors */
+  --primary: #6366F1;      /* Indigo */
+  --secondary: #14B8A6;    /* Teal */
+  --accent: #FACC15;       /* Yellow */
+  --background: #0F172A;   /* Dark Slate */
+  --foreground: #F8FAFC;   /* Light Gray */
+  
+  /* Additional semantic colors */
+  --muted: #64748B;        /* Slate 500 */
+  --muted-foreground: #94A3B8; /* Slate 400 */
+  --border: #334155;       /* Slate 700 */
+  --input: #1E293B;        /* Slate 800 */
+  --card: #1E293B;         /* Slate 800 */
+  --card-foreground: #F8FAFC;
+  
+  /* Success, Warning, Error */
+  --success: #10B981;      /* Emerald 500 */
+  --warning: #F59E0B;      /* Amber 500 */
+  --error: #EF4444;        /* Red 500 */
+}
+
+@theme inline {
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-error: var(--error);
+  --font-sans: var(--font-josefin);
+}
+
+/* Light mode overrides (optional for future) */
+@media (prefers-color-scheme: light) {
+  :root {
+    --background: #FFFFFF;
+    --foreground: #0F172A;
+    --card: #FFFFFF;
+    --card-foreground: #0F172A;
+    --muted: #F1F5F9;
+    --muted-foreground: #64748B;
+    --border: #E2E8F0;
+    --input: #F8FAFC;
+  }
+}
+
+/* Base styles */
+* {
+  border-color: var(--border);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-feature-settings: "rlig" 1, "calt" 1;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--muted);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--muted-foreground);
+}
+
+/* Selection styles */
+::selection {
+  background: var(--primary);
+  color: var(--background);
+}
+
+/* Focus styles */
+.focus-ring {
+  @apply focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-slate-900;
+}
