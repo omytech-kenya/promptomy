@@ -11,12 +11,15 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link href="/" className="hover:opacity-80 transition-opacity">
+          <Link href="/" className="flex items-center space-x-2 hover:opacity-80 transition-opacity">
             <img
               src="/promptomy1.png"
               alt="PROMPTOMY"
               className="h-12 w-auto object-contain"
             />
+            <span className="hidden md:block text-white font-bold text-xl tracking-wide">
+              PROMPTOMY
+            </span>
           </Link>
 
           {/* Desktop Navigation */}

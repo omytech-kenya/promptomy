@@ -1,11 +1,8 @@
 import Link from "next/link";
-import Header from "@/components/nav";
-import Footer from "@/components/footer";
 
 export default function HomePage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
-      <Header />
 
       {/* Hero Section */}
       <section className="relative overflow-hidden">
@@ -133,7 +130,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      <Footer />
     </div>
   );
 }

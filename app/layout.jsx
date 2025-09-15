@@ -1,5 +1,7 @@
 import { Josefin_Sans } from "next/font/google";
 import "@/styles/globals.css";
+import Header from "@/components/nav";
+import Footer from "@/components/footer";
 
 const josefinSans = Josefin_Sans({
   subsets: ["latin"],
@@ -38,9 +40,11 @@ export default function RootLayout({ children }) {
         suppressHydrationWarning
       >
         <div className="relative flex min-h-screen flex-col">
-          <div className="flex-1">
+          <Header />
+          <main className="flex-1">
             {children}
-          </div>
+          </main>
+          <Footer />
         </div>
       </body>
     </html>
