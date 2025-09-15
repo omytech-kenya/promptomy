@@ -1,87 +1,36 @@
-# PROMPTOMY 🚀
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-**An intelligent prompt management and automation system — create, organize, and trigger AI prompts seamlessly.**
+## Getting Started
 
+First, run the development server:
 
-## 🌟 Overview
-PROMPTOMY is a **Prompt Operating System (Prompt OS)** that enables users to **build, manage, and automate AI prompts** across platforms like ChatGPT, MidJourney, and Gemini. Whether you’re an AI developer, content creator, or automation geek, PROMPTOMY empowers you to streamline prompt workflows effortlessly.
-
-
-## ✨ Features
-- 🗂️ **Prompt Library** — Organize prompts in personal or team collections.
-- 📝 **Prompt Templates** — Build dynamic prompts with variables.
-- ⚡ **Automations & API Hooks** — Trigger prompts via APIs/webhooks.
-- 🤝 **Team Collaboration** — Co-create prompt workflows with your team.
-- 🌍 **Prompt Sharing** — Public/private sharing links & embeds.
-- 🛒 **Prompt Marketplace (Coming Soon)** — Buy & sell premium prompts.
-- 🔍 **In-App Prompt Tester** — Test prompts instantly using AI APIs.
-
-
-## 🚀 Tech Stack
-- **Frontend:** Next.js, Tailwind CSS
-- **Backend:** Appwrite / Node.js (Express)
-- **Database:** Appwrite DB / Firestore
-- **Authentication:** Appwrite Auth / Clerk.dev
-- **Integrations:** OpenAI API, Zapier, n8n, Custom Webhooks
-- **Payments:** Stripe (for Marketplace)
-
-
-## 🛠️ Installation (Development)
 ```bash
-# Clone the repository
-git clone https://github.com/omytech-kenya/promptomy.git
-cd promptomy
-
-# Install dependencies
-npm install
-
-# Create .env file with your API Keys
-cp .env.example .env
-
-# Run the development server
 npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-```
-/src
- ├── components/
- ├── pages/
- ├── lib/
- ├── hooks/
- ├── context/
- ├── utils/
- └── styles/
-```
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## 📄 Roadmap
-  ✅User Authentication & Profiles
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-  ✅Prompt Library (CRUD)
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-  ✅Prompt Templates (Variables)
+## Learn More
 
-  ✅Prompt Execution via API
+To learn more about Next.js, take a look at the following resources:
 
-  ✅Shareable Prompt Links
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-  ✅API Trigger for Automations
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-  ✅Prompt Marketplace (Phase 2)
+## Deploy on Vercel
 
-## 🤝 Contributing
- ✅Fork the project.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
- ✅Create your feature branch (git checkout -b feature/awesome-feature)
-
- ✅Commit your changes (git commit -m 'Add some feature')
-
- ✅Push to the branch (git push origin feature/awesome-feature)
-
- ✅Open a Pull Request.
-
-## 📜 License
-  This project is licensed under the MIT License.
-
-## 📧 Contact
-  For inquiries or partnerships, reach out to: info@omytech.co.ke
-
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
