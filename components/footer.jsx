@@ -7,11 +7,12 @@ export default function Footer() {
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
                     {/* Brand Section */}
                     <div className="col-span-2 md:col-span-1">
-                        <Link href="/" className="flex items-center space-x-2 mb-4 hover:opacity-80 transition-opacity">
-                            <div className="w-8 h-8 bg-gradient-to-r from-indigo-500 to-teal-500 rounded-lg flex items-center justify-center">
-                                <span className="text-white font-bold text-sm">P</span>
-                            </div>
-                            <span className="text-xl font-bold text-white">PROMPTOMY</span>
+                        <Link href="/" className="inline-block mb-4 hover:opacity-80 transition-opacity">
+                            <img
+                                src="/promptomy1.png"
+                                alt="PROMPTOMY"
+                                className="h-12 w-auto object-contain"
+                            />
                         </Link>
                         <p className="text-slate-400 text-sm leading-relaxed mb-4">
                             The ultimate marketplace for AI prompt engineering. Discover, create, and monetize AI prompts.
