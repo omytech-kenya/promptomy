@@ -30,8 +30,8 @@ export default function PrivacyPolicyPage() {
                                     </svg>
                                 </div>
                                 <div>
-                                    <div className="text-white font-semibold">Last Updated: March 20, 2024</div>
-                                    <div className="text-slate-400 text-sm">Effective Date: March 20, 2024</div>
+                                    <div className="text-white font-semibold">Last Updated: March 20, 2025</div>
+                                    <div className="text-slate-400 text-sm">Effective Date: March 20, 2026</div>
                                 </div>
                             </div>
                             <p className="text-slate-300 text-sm">
@@ -227,7 +227,7 @@ export default function PrivacyPolicyPage() {
                                 </ul>
 
                                 <p className="text-slate-300 mb-6">
-                                    To exercise these rights, please contact us at <a href="mailto:privacy@promptomy.com" className="text-indigo-400 hover:text-indigo-300">privacy@promptomy.com</a>. We will respond to your request within 30 days.
+                                    To exercise these rights, please contact us at <a href="mailto:info@omytech.co.ke" className="text-indigo-400 hover:text-indigo-300">info@omytech.co.ke</a>. We will respond to your request within 30 days.
                                 </p>
                             </section>
 
@@ -320,8 +320,8 @@ export default function PrivacyPolicyPage() {
                                         <div>
                                             <h4 className="text-white font-semibold mb-3">Privacy Officer</h4>
                                             <div className="space-y-2 text-sm text-slate-300">
-                                                <div>Email: <a href="mailto:privacy@promptomy.com" className="text-indigo-400 hover:text-indigo-300">privacy@promptomy.com</a></div>
-                                                <div>Phone: +1 (555) 123-4567</div>
+                                                <div>Email: <a href="mailto:info@omytech.co.ke" className="text-indigo-400 hover:text-indigo-300">info@omytech.co.ke</a></div>
+                                                <div>Phone: +254 (715) 367-859</div>
                                                 <div>Response Time: Within 30 days</div>
                                             </div>
                                         </div>
@@ -330,9 +330,9 @@ export default function PrivacyPolicyPage() {
                                             <div className="text-sm text-slate-300">
                                                 PROMPTOMY, Inc.<br />
                                                 Attn: Privacy Officer<br />
-                                                123 AI Street, Suite 100<br />
-                                                San Francisco, CA 94105<br />
-                                                United States
+                                                UpperHill<br />
+                                                Nairobi<br />
+                                                Kenya
                                             </div>
                                         </div>
                                     </div>
@@ -340,7 +340,7 @@ export default function PrivacyPolicyPage() {
 
                                 <div className="mt-6 p-4 bg-indigo-500/10 border border-indigo-500/20 rounded-xl">
                                     <p className="text-indigo-300 text-sm">
-                                        <strong>EU Representative:</strong> For users in the European Union, our EU representative can be contacted at eu-privacy@promptomy.com for matters related to GDPR compliance.
+                                        <strong>EU Representative:</strong> For users in the European Union, our EU representative can be contacted at eu-info@omytech.co.ke for matters related to GDPR compliance.
                                     </p>
                                 </div>
                             </section>

@@ -544,17 +544,12 @@ export default function PartnersPage() {
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
                             <a
-                                href="mailto:partnerships@promptomy.com"
+                                href="mailto:partnerships@omytech.co.ke"
                                 className="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-4 rounded-2xl font-semibold transition-all hover:scale-105"
                             >
                                 Start Partnership Discussion
                             </a>
-                            <Link
-                                href="/press"
-                                className="border border-slate-600 hover:border-slate-500 text-white px-8 py-4 rounded-2xl font-semibold transition-all hover:scale-105 inline-block"
-                            >
-                                View Press Coverage
-                            </Link>
+                            
                         </div>
                     </div>
                 </div>

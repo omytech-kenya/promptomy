@@ -30,7 +30,7 @@ export default function SecurityPage() {
                                     </svg>
                                 </div>
                                 <div>
-                                    <div className="text-white font-semibold">Security Framework Updated: March 2024</div>
+                                    <div className="text-white font-semibold">Security Framework Updated: March 2025</div>
                                     <div className="text-slate-400 text-sm">SOC 2 Type II Compliant • ISO 27001 Certified</div>
                                 </div>
                             </div>
@@ -370,7 +370,7 @@ export default function SecurityPage() {
                                         <div>
                                             <h4 className="text-white font-semibold mb-3">Security Team Contact</h4>
                                             <div className="space-y-2 text-sm text-slate-300">
-                                                <div>Email: <a href="mailto:security@promptomy.com" className="text-indigo-400 hover:text-indigo-300">security@promptomy.com</a></div>
+                                                <div>Email: <a href="mailto:security@omytech.co.ke" className="text-indigo-400 hover:text-indigo-300">security@omytech.co.ke</a></div>
                                                 <div>PGP Key: Available on request</div>
                                                 <div>Response Time: Within 24 hours</div>
                                             </div>
@@ -418,7 +418,7 @@ export default function SecurityPage() {
                                         <svg className="w-5 h-5 text-indigo-400 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                                         </svg>
-                                        <a href="mailto:security@promptomy.com" className="text-indigo-400 hover:text-indigo-300">security@promptomy.com</a>
+                                        <a href="mailto:security@omytech.co.ke" className="text-indigo-400 hover:text-indigo-300">security@omytech.co.ke</a>
                                     </div>
                                     <div className="flex items-center">
                                         <svg className="w-5 h-5 text-indigo-400 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">

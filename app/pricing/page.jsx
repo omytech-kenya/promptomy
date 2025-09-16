@@ -30,7 +30,7 @@ export default function PricingPage() {
         {
             name: 'Creator',
             description: 'For content creators and professionals',
-            price: { monthly: 19, yearly: 190 },
+            price: { monthly: 10, yearly: 100 },
             features: [
                 '100 prompt generations per month',
                 'Access to all templates',
@@ -49,7 +49,7 @@ export default function PricingPage() {
         {
             name: 'Business',
             description: 'For teams and growing businesses',
-            price: { monthly: 49, yearly: 490 },
+            price: { monthly: 19, yearly: 190 },
             features: [
                 'Unlimited prompt generations',
                 'Team collaboration (up to 10 users)',

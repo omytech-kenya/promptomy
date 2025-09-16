@@ -30,8 +30,8 @@ export default function CookiePolicyPage() {
                                     </svg>
                                 </div>
                                 <div>
-                                    <div className="text-white font-semibold">Last Updated: March 20, 2024</div>
-                                    <div className="text-slate-400 text-sm">Effective Date: March 20, 2024</div>
+                                    <div className="text-white font-semibold">Last Updated: March 20, 2025</div>
+                                    <div className="text-slate-400 text-sm">Effective Date: March 20, 2026</div>
                                 </div>
                             </div>
                             <p className="text-slate-300 text-sm">
@@ -416,7 +416,7 @@ export default function CookiePolicyPage() {
                                         <div>
                                             <h4 className="text-white font-semibold mb-3">Privacy Team</h4>
                                             <div className="space-y-2 text-sm text-slate-300">
-                                                <div>Email: <a href="mailto:privacy@promptomy.com" className="text-indigo-400 hover:text-indigo-300">privacy@promptomy.com</a></div>
+                                                <div>Email: <a href="mailto:privacy@omytech.co.ke" className="text-indigo-400 hover:text-indigo-300">privacy@omytech.co.ke</a></div>
                                                 <div>Subject: Cookie Policy Inquiry</div>
                                                 <div>Response Time: Within 5 business days</div>
                                             </div>
@@ -424,7 +424,7 @@ export default function CookiePolicyPage() {
                                         <div>
                                             <h4 className="text-white font-semibold mb-3">Data Protection Officer</h4>
                                             <div className="space-y-2 text-sm text-slate-300">
-                                                <div>Email: <a href="mailto:dpo@promptomy.com" className="text-indigo-400 hover:text-indigo-300">dpo@promptomy.com</a></div>
+                                                <div>Email: <a href="mailto:dpo@omytech.co.ke" className="text-indigo-400 hover:text-indigo-300">dpo@omytech.co.ke</a></div>
                                                 <div>For EU/UK data protection matters</div>
                                                 <div>GDPR compliance questions</div>
                                             </div>

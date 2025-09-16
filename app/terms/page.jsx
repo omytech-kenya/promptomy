@@ -30,8 +30,8 @@ export default function TermsOfServicePage() {
                                     </svg>
                                 </div>
                                 <div>
-                                    <div className="text-white font-semibold">Last Updated: March 20, 2024</div>
-                                    <div className="text-slate-400 text-sm">Effective Date: March 20, 2024</div>
+                                    <div className="text-white font-semibold">Last Updated: March 20, 2025</div>
+                                    <div className="text-slate-400 text-sm">Effective Date: March 20, 2026</div>
                                 </div>
                             </div>
                             <p className="text-slate-300 text-sm">
@@ -440,8 +440,8 @@ export default function TermsOfServicePage() {
                                         <div>
                                             <h4 className="text-white font-semibold mb-3">Legal Department</h4>
                                             <div className="space-y-2 text-sm text-slate-300">
-                                                <div>Email: <a href="mailto:legal@promptomy.com" className="text-indigo-400 hover:text-indigo-300">legal@promptomy.com</a></div>
-                                                <div>Phone: +1 (555) 123-4567</div>
+                                                <div>Email: <a href="mailto:legal@omytech.co.ke" className="text-indigo-400 hover:text-indigo-300">legal@omytech.co.ke</a></div>
+                                                <div>Phone: +254 (715) 367-859</div>
                                                 <div>Response Time: Within 5 business days</div>
                                             </div>
                                         </div>
@@ -450,9 +450,9 @@ export default function TermsOfServicePage() {
                                             <div className="text-sm text-slate-300">
                                                 PROMPTOMY, Inc.<br />
                                                 Attn: Legal Department<br />
-                                                123 AI Street, Suite 100<br />
-                                                San Francisco, CA 94105<br />
-                                                United States
+                                                UpperHill<br />
+                                                Nairobi<br />
+                                                Kenya
                                             </div>
                                         </div>
                                     </div>

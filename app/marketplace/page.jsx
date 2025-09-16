@@ -18,7 +18,7 @@ export default function Marketplace() {
             price: 4.99,
             rating: 4.8,
             reviews: 234,
-            author: "Sarah Johnson",
+            author: "Omillo Charles",
             tags: ["email", "business", "professional"],
             image: "/api/placeholder/300/200"
         },
@@ -30,7 +30,7 @@ export default function Marketplace() {
             price: 7.99,
             rating: 4.9,
             reviews: 156,
-            author: "Mike Chen",
+            author: "Ian Kanja",
             tags: ["storytelling", "creative", "fiction"],
             image: "/api/placeholder/300/200"
         },
@@ -42,7 +42,7 @@ export default function Marketplace() {
             price: 9.99,
             rating: 4.7,
             reviews: 89,
-            author: "Alex Rodriguez",
+            author: "Musyoki Christopher",
             tags: ["coding", "documentation", "development"],
             image: "/api/placeholder/300/200"
         },
@@ -54,7 +54,7 @@ export default function Marketplace() {
             price: 5.99,
             rating: 4.6,
             reviews: 312,
-            author: "Emma Wilson",
+            author: "Kanja Ian",
             tags: ["social media", "marketing", "content"],
             image: "/api/placeholder/300/200"
         },
@@ -66,7 +66,7 @@ export default function Marketplace() {
             price: 6.99,
             rating: 4.8,
             reviews: 127,
-            author: "Dr. James Smith",
+            author: "William Achuachi",
             tags: ["research", "academic", "education"],
             image: "/api/placeholder/300/200"
         },
@@ -78,7 +78,7 @@ export default function Marketplace() {
             price: 3.99,
             rating: 4.5,
             reviews: 198,
-            author: "Lisa Park",
+            author: "Eugene Emmanuel",
             tags: ["ecommerce", "product", "sales"],
             image: "/api/placeholder/300/200"
         }

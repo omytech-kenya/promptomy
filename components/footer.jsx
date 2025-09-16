@@ -22,7 +22,7 @@ export default function Footer() {
                         </p>
                         <div className="flex space-x-4">
                             <a
-                                href="https://twitter.com/promptomy"
+                                href="https://twitter.com/omytech_kenya"
                                 className="text-slate-400 hover:text-white transition-colors"
                                 aria-label="Twitter"
                             >
@@ -31,7 +31,7 @@ export default function Footer() {
                                 </svg>
                             </a>
                             <a
-                                href="https://github.com/promptomy"
+                                href="https://github.com/omillo-charles"
                                 className="text-slate-400 hover:text-white transition-colors"
                                 aria-label="GitHub"
                             >
@@ -40,7 +40,7 @@ export default function Footer() {
                                 </svg>
                             </a>
                             <a
-                                href="https://discord.gg/promptomy"
+                                href="https://discord.gg/omytech_kenya"
                                 className="text-slate-400 hover:text-white transition-colors"
                                 aria-label="Discord"
                             >
@@ -92,16 +92,7 @@ export default function Footer() {
                                     About
                                 </Link>
                             </li>
-                            <li>
-                                <Link href="/blog" className="text-slate-400 hover:text-white transition-colors">
-                                    Blog
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="/careers" className="text-slate-400 hover:text-white transition-colors">
-                                    Careers
-                                </Link>
-                            </li>
+                            
                             <li>
                                 <Link href="/press" className="text-slate-400 hover:text-white transition-colors">
                                     Press
