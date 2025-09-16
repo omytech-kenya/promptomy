@@ -14,16 +14,33 @@ export const metadata = {
   keywords: ["AI", "prompts", "marketplace", "ChatGPT", "AI tools", "prompt engineering"],
   authors: [{ name: "PROMPTOMY Team" }],
   creator: "PROMPTOMY",
+  icons: {
+    icon: [
+      { url: "/promptomy1.png", sizes: "32x32", type: "image/png" },
+      { url: "/promptomy1.png", sizes: "16x16", type: "image/png" },
+    ],
+    shortcut: "/promptomy1.png",
+    apple: "/promptomy1.png",
+  },
   openGraph: {
     title: "PROMPTOMY - AI Prompt Marketplace",
     description: "Discover, create, and share AI prompts. The ultimate marketplace for AI prompt engineering.",
     type: "website",
     locale: "en_US",
+    images: [
+      {
+        url: "/promptomy1.png",
+        width: 1200,
+        height: 630,
+        alt: "PROMPTOMY - AI Prompt Marketplace",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "PROMPTOMY - AI Prompt Marketplace",
     description: "Discover, create, and share AI prompts. The ultimate marketplace for AI prompt engineering.",
+    images: ["/promptomy1.png"],
   },
   viewport: "width=device-width, initial-scale=1",
   themeColor: [

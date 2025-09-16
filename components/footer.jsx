@@ -134,16 +134,7 @@ export default function Footer() {
                                     Contact
                                 </Link>
                             </li>
-                            <li>
-                                <Link href="/status" className="text-slate-400 hover:text-white transition-colors">
-                                    Status
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="/community" className="text-slate-400 hover:text-white transition-colors">
-                                    Community
-                                </Link>
-                            </li>
+
                         </ul>
                     </div>
                 </div>
