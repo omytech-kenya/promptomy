@@ -52,6 +52,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="dark" suppressHydrationWarning>
+      <head>
+        <link rel="icon" href="/promptomy1.png" type="image/png" />
+        <link rel="shortcut icon" href="/promptomy1.png" type="image/png" />
+        <link rel="apple-touch-icon" href="/promptomy1.png" />
+      </head>
       <body
         className={`${josefinSans.variable} font-sans antialiased bg-slate-900 text-slate-50 min-h-screen`}
         suppressHydrationWarning
